@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es2016",    
+    "module": "commonjs",                                /* Specify what module code is generated. */                                     /* Specify a set of entries that re-map imports to additional lookup locations. */
+     "rootDir": "./src",                                   /* Allow multiple folders to be treated as one when resolving modules. */                       /* Specify a file that bundles all outputs into one JavaScript file. If 'declaration' is true, also designates a file that bundles all .d.ts output. */
+     "outDir": "./dist",                                   /* Specify an output folder for all emitted files. */
+     "strict": true, 
+    "esModuleInterop": true,   
+    "experimentalDecorators": true,                          /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility. */
+    "strictPropertyInitialization": false,          /* Disable resolving symlinks to their realpath. This correlates to the same flag in node. */
+    "forceConsistentCasingInFileNames": true,
+    "emitDecoratorMetadata": true,            /* Ensure that casing is correct in imports. */                             /* Skip type checking all .d.ts files. */
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"]
+}
